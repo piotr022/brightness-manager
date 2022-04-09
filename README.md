@@ -26,7 +26,7 @@ Program that controls screen brightness, by modyfing monitor device file. Mainly
   ```
   #include <X11/XF86keysym.h>
   ```
-* Add this command definition
+* Add this commands definitions
   ```
   static const char *brupcmd[] = { "sudo", "brightness-manager", "-i", NULL };
   static const char *brdowncmd[] = { "sudo", "brightness-manager", "-d", NULL };
@@ -36,6 +36,7 @@ Program that controls screen brightness, by modyfing monitor device file. Mainly
   { 0, XF86XK_MonBrightnessUp, spawn, {.v = brupcmd} },
   { 0, XF86XK_MonBrightnessDown, spawn, {.v = brdowncmd} },
   ```
+* Rebuild and reinstall dwm
 * Reboot or restart display-manager
   ```
   systemctl restart display-manager
