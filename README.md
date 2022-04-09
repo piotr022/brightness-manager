@@ -13,6 +13,13 @@ Program that controls screen brightness, by modyfing monitor device file. Mainly
   ```
   YourUserName ALL = (root) NOPASSWD: /usr/bin/brightness-manager
   ```
+* done, to increase or decrease your screen brightness type in terminal
+  ```
+  increase
+  $ brightness-manager -i
+  decrease
+  $ brightness-manager -d
+  ```
 
 2. Configure keybinds in dwm's config.h and rebuild dwm
 * Include this header at a top of file, needed for brightness keys definitons
