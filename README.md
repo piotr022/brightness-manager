@@ -1,5 +1,5 @@
 # brightness-manager
-Program that controls screen brightness, by modyfing monitor device file. Mainly intended to be used as a keybinded action, in windows managers that not supporting this feature by default like DWM
+Program that controls screen brightness, by modyfing monitor device file. Mainly intended to be used as a keybinded action, in windows managers that not supporting this feature by default like suckless DWM
 
 #### usage:
 1. Build and install brightness-manager 
